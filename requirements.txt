@@ -6,3 +6,4 @@ Scikit-Learn
 TensorFlow==2.15.0
 Plotly
 Datetime
+Hyperpot
