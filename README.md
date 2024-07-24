@@ -1,1 +1,1 @@
-# forex_usdjpy
+# forexnn
