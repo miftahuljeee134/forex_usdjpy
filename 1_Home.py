@@ -9,7 +9,7 @@ def main():
     # Dataframe selection
     st.markdown("<h1 align='center'> <b> Sistem Prediksi Forex</b></h1>", unsafe_allow_html=True)
     new_line(1)
-    st.markdown("Selamat datang! Sebuah aplikasi prediksi yang intuitif dan kuat yang dirancang untuk menyederhanakan proses membangun dan mengevaluasi model pembelajaran mesin. Sistem Prediksi ini menggunakan Algoritma Long Short Term Memory dan Gated Recurrent Unit, sistem ini diharapkan dapat menjadi landasan untuk strategi perdagangan yang lebih cerdas dan keputusan investasi yang lebih baik dalam pasar forex.", unsafe_allow_html=True)
+    st.markdown("Selamat datang! Sebuah aplikasi prediksi yang intuitif dan kuat yang dirancang untuk menyederhanakan proses membangun dan mengevaluasi model pembelajaran mesin. Sistem Prediksi ini menggunakan Algoritma Long Short Term Memory, sistem ini diharapkan dapat menjadi landasan untuk strategi perdagangan yang lebih cerdas dan keputusan investasi yang lebih baik dalam pasar forex.", unsafe_allow_html=True)
     
     st.divider()
     
@@ -26,7 +26,7 @@ def main():
     - **⚙️ Data Preprocessing**: proses mengubah data ke dalam format yang sesuai untuk analisis. Hal ini termasuk menangani fitur kategorikal, fitur numerik, penskalaan dan transformasi, dll.. <br> <br>
     - **💡 Feature Engineering**: proses yang memanipulasi fitur itu sendiri. Terdiri dari beberapa langkah seperti ekstraksi fitur, transformasi fitur, dan pemilihan fitur. <br> <br>
     - **✂️ Splitting the Data**: proses membagi data menjadi set pelatihan, validasi, dan pengujian. Set pelatihan digunakan untuk melatih model, set validasi digunakan untuk menyetel hiperparameter, dan set pengujian digunakan untuk mengevaluasi model.. <br> <br>
-    - **🧠 Building Machine Learning Models**: Model yang digunakan pada aplikasi ini adalah Long Short Term Memory dan Gated Recurrent Unit. Dalam konteks deep learning, LSTM dan GRU adalah salah satu arsitektur dari RNN yang sering digunakan <br> <br>
+    - **🧠 Building Machine Learning Models**: Model yang digunakan pada aplikasi ini adalah Long Short Term Memory. Dalam konteks deep learning, LSTM adalah salah satu arsitektur dari RNN yang sering digunakan <br> <br>
     - **⚖️ Evaluating Machine Learning Models**: proses mengevaluasi model prediksi dengan menggunakan metrik seperti Mean Absolute Percentage Error (MAPE), Mean Squared Error (MSE) dan Root Mean Squared Error (RMSE). <br> <br>
     """, unsafe_allow_html=True)
     
@@ -34,7 +34,7 @@ def main():
     Pada bagian membangun model user memasukkan nilai masing masing hyperparameter. Hiperparameter adalah variabel yang secara signifikan mempengaruhi proses pelatihan model:
     
     - **⏱ Time Steps**: Adalah parameter berupa nilai integer yang menentukan berapa banyak dataset latih yang digunakan untuk memprediksi nilai tukar mata uang di masa depan. <br> <br>
-    - **🧾 Units**: Adalah sebuah nilai integer yang menentukan berapa banyak layer atau lapisan LSTM dan GRU yang dibangun dan digunakan di dalam jaringan saraf. <br> <br>
+    - **🧾 Units**: Adalah sebuah nilai integer yang menentukan berapa banyak layer atau lapisan LSTM yang dibangun dan digunakan di dalam jaringan saraf. <br> <br>
     - **💣 Dropout**: Adalah sebuah teknik untuk menonaktifkan beberapa fungsi pada cell untuk mencegah terjadinya overfitting. <br> <br>
     - **📚 Learning Rate**: proses mengatur seberapa besar langkah perubahan bobot yang dilakukan selama proses pembelajaran. <br> <br>
     - **📠 Epochs**: Adalah hyperparameter yang menggunakan nilai integer yang menentukan jumlah berapa kali program akan bekerja mengolah seluruh dataset latih. <br> <br>
