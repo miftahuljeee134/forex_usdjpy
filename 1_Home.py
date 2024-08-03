@@ -50,10 +50,10 @@ def main():
     
     # Contributors
     st.header("👤 Contributors")
-    st.markdown("Aplikasi ini dibuat dan dibangun oleh **Haris Yunanda Rangkuti** (200170154) untuk kebutuhan tugas akhir/skripsi.", unsafe_allow_html=True)
+    st.markdown("Aplikasi ini dibuat dan dibangun oleh **Miftahul Jannah** (200170150) untuk kebutuhan tugas akhir/skripsi.", unsafe_allow_html=True)
     new_line()
     
-    st.markdown("""Jika anda memiliki pertanyaan atau saran, jangan ragu untuk menghubungi **yunandaharis@gmail.com**. We're here to help!
+    st.markdown("""Jika anda memiliki pertanyaan atau saran, jangan ragu untuk menghubungi **miftahuljeee134@gmail.com**. We're here to help!
   
 
 <br> 
