@@ -21,7 +21,7 @@ simplefilter(action='ignore', category=DeprecationWarning)
 def main():
     st.title("Forex Currency Price Prediction App")
     st.write("Ini adalah sistem prediksi yang menggunakan algoritma LSTM dengan input parameter. Hyperparameter adalah variabel yang secara signifikan mempengaruhi proses pelatihan model. Hyperparameter tidak dapat langsung diperoleh dari data dan perlu diinisialisasi sebelum proses pelatihan dimulai. Pada penelitian ini, inisialisasi hyperparameter meliputi pemilihan optimizer dan learning rate, penentuan batch size, jumlah epoch, dan struktur jaringan syaraf seperti jumlah hidden layer dan neuron pada setiap layer. Keputusan yang bijak dalam menentukan nilai-nilai tersebut dapat sangat mempengaruhi performa dan kemampuan generalisasi model, yang bertujuan untuk mencapai performa yang optimal dalam memprediksi harga mata uang forex")
-    st.write("Please enter the parameters")
+    st.write("Automatic Parameters")
 
     st.header("Data Download")
     stock_symbol = st.selectbox("Enter Currency Pair:", ["JPY=X", "EURUSD=X", "AUDUSD=X", "IDR=X", "HKD=X", "BNDUSD=X"])
